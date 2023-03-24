@@ -1,0 +1,83 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+#img-clinica{
+    width: 307px;
+    height: 97px;
+}
+header{
+    background-color: #DEF7F4;
+    width: 1434px;
+    height: 97px;
+}
+#container{
+    background-color: #9ED8DC;
+    color: rgb(255, 255, 255);
+    
+    position: absolute;
+    margin: 30px;
+    top: 90px;
+    left: 510px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    
+}
+#name{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    height: 50px;
+    width: 400px;
+    margin: 5px;
+}
+#cpf{
+    position: absolute;
+    top: 260px;
+    left: 164px;
+    margin: 5px;
+}
+#horario{
+    position: absolute;
+    top: 305px;
+    left: 150px;
+    margin: 5px;
+}
+#convenio{
+    position: absolute;
+    top: 345px;
+    left: 150px;
+    margin: 5px;
+}
+#diadoagendamento{
+    position: absolute;
+    top: 385px;
+    left: 70px;
+    margin: 5px;
+}
+#cepdopaciente{
+    position: absolute;
+    top: 220px;
+    left: 720px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+footr{
+    background-color: rgb(152, 152, 152);
+    width: 1434px;
+    height: 96px;
+    padding: 70px;
+    bottom: 50px;
+}
+.texto{
+    width: 400px;
+    height: 30px;
+}
