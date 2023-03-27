@@ -55,14 +55,15 @@ body{background-color: #f9f9f9;}
     width: 200px;
 }
 
-#imagem{
-    background-image: url(../image\ 5.png);
+.imagem{
+    background-image: url(../img/image\ 5.png);
     height: 100px;
     width: 70%;
     background-repeat: no-repeat;
     background-position:left top;
     background-size: 25% 70%;
-    margin-bottom: 10px;    
+    margin-bottom: 10px; 
+      
 }
 
 #content{
@@ -73,7 +74,7 @@ body{background-color: #f9f9f9;}
 
 #bloco1{
     height: 300px;
-    width: 1250px;
+    width: 600px;
     background-color: #85C9C6;
     padding: 15px;
     margin: -20px;
@@ -85,116 +86,192 @@ body{background-color: #f9f9f9;}
     top: 150px;
 }
 
-.tituloblc1{
+#tituloblc1{
     text-align: center;
     font-weight: bold;
-    padding: 0px;
+    padding: 60px;
     margin: -5px;
-
+    top: -50px;
+    width: 400px;
+    height: 50px;   
+    position: absolute;
+    left: 100px;
+    justify-content: center;
 }
 
 .texto1{
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     margin: -5px;
+    padding: 15px;
 
 }
 
 #bloco2{
     height: 300px;
-    width: 1250px;
+    width: 600px;
     background-color: #85C9C6;
     padding: 15px;
-    margin: -195px;
+    margin: -20px;
     margin-top: -10px;
     border: solid rgb(119, 119, 119) 3px;
+    justify-content: center;
     position: absolute;
-    left: 200px;
-    top: 480px;
+    left: 25px;
+    top: 500px;
 }
 
 .tituloblc2{
     text-align: center;
     font-weight: bold;
-    padding: 0px;
+    padding: 60px;
     margin: -5px;
+    top: -50px;
+    width: 400px;
+    height: 50px;   
+    position: absolute;
+    left: 100px;
+    justify-content: center;
 
 }
 
 .texto2{
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     margin: -5px;
+    padding: 15px;
 
 }
 
-#bloco3{
+#missao{
     height: 300px;
-    width: 700px;
+    width: 430px;
     background-color: #85C9C6;
     padding: 15px;
-    margin: 15px;
+    margin: -20px;
     margin-top: -10px;
     border: solid rgb(119, 119, 119) 3px;
+    justify-content: center;
     position: absolute;
-    left: 200px;
-    top: 800px;
+    left: 25px;
+    top: 850px;
+    
 }
 
-.tituloblc3{
+.img2{
+    
+    width:  424.2px;
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 15%;
+    left: -15px;
+}
+
+.titulomissao{
+    width:  424.2px;
     text-align: center;
     font-weight: bold;
     padding: 5px;
     margin: -5px;
     position: absolute;
     top: 15px;
-    left:50px;}
+    left:5px;
+    justify-content: center;
+    
+    
+}
 
+.textomissao{
+    height: 300px;
+    width: 400px;
+    margin: -5px;
+    padding: 15px;
+    top: 175px;
+    position: absolute;
+}
 
+#visao{
+    height: 300px;
+    width: 430px;
+    background-color: #85C9C6;
+    padding: 15px;
+    margin: -20px;
+    margin-top: -10px;
+    border: solid rgb(119, 119, 119) 3px;
+    justify-content: center;
+    position: absolute;
+    left: 500px;
+    top: 850px;
+   
 
-.titulov{text-align: center;
+}
+
+.titulovisao{
+    
+    width: 424.2px;
+    text-align: center;
     font-weight: bold;
     padding: 5px;
     margin: -5px;
     position: absolute;
     top: 15px;
-    left:300px;}
+    justify-content: center;
+    left:5px;}
 
-.titulovv{text-align: center;
-    font-weight: bold;
-    padding: 5px;
-    margin: -5px;
-    position: absolute;
-    top: 15px;
-    left:550px;}
+
     
 
-.texto31{
-    height: 100px;
-    width: 200px;
+.textovisao{
+    height: 300px;
+    width: 400px;
     margin: -45px;
     position: absolute;
-    top: 250px;
+    top: 200px;
     left:50px;
+    padding: 15px;
+   
 
 }
 
-.texto32{
-    height: 100px;
-    width: 200px;
+#valores{
+    height: 300px;
+    width: 430px;
+    background-color: #85C9C6;
+    padding: 15px;
+    margin: -20px;
+    margin-top: -10px;
+    border: solid rgb(119, 119, 119) 3px;
+    justify-content: center;
+    position: absolute;
+    left: 975px;
+    top: 850px;
+   
+    
+}
+.titulovalores{
+    width: 424.2px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: -5px;
+    position: absolute;
+    top: 15px;
+    left:5px;}
+
+.textovalores{
+    height: 300px;
+    width: 400px;
     margin: -45px;
     position: absolute;
-    top: 250px;
-    left: 300px;
+    top: 200px;
+    left:50px;
+    padding: 15px;
 }
 
-.texto33{
-    height: 100px;
-    width: 200px;
-    margin: -45px;
-    position: absolute;
-    top: 250px;
-    left: 530px;
-}
+.img2{
+    position: relative;
+    background-repeat: no-repeat;
 
+}
 
