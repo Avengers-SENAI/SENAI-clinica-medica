@@ -16,50 +16,66 @@
     background-color: #A5E5DA; 
     border: 15px;
     margin: 0px;
-    height: 50;
+    height: 100%;
+    
     }
 #content{
     grid-area: content;
     padding: 25px;
-    height: 420px;
+    height: 400px;
     width: all;
+    
     
 }
 #footer{
-    grid-area: footer;
     background-color: #9ed8d5;
-    border: 15px;
-    margin:0px
-    width:all;
-    height: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+  
 }
 
 .logout{
     position: absolute;
     left: 1150px;
-    margin-top: -65px;
+    margin-top: -60px;
     height: 200px;
     width: 200px;
+    font-family: roboto;
+}
+.logout:hover{
+    cursor: pointer;
+    color: blue ;
+
 }
 
 .Rodape{
     text-align: center;
+    font-size: small;
+    
     
 }
 #quadro-aviso {
     background-color: #F9F9F9; /* amarelo */
     color: #000;
-    width: 50%;
-    height: 50%;
+    width: 400px;
+    height: 150px;
     margin: 0 auto; /* centralizar horizontalmente */
     padding: 15px;
     border: 2px solid #000;
     border-radius: 10px;
     text-align: center;
+    float: left;
   }
+.img{
+    width: 700px;
+    height: 400px;
+    background-image:  url(../img/medicoepaciente3.jpg);
+    float: right;
+    background-size: cover;
+    margin-top: -90px;
+}
   
