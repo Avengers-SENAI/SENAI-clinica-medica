@@ -5,23 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../Design/login.css">
 </head>
 <body>
-    <form>
-        <fieldset>
-            <img src="../image 5.png"><br>
-            Email:
-            <input type="email" name="email"><br><br>
-            Senha:
-            <input type="password" name="Senha"><br><br>
-            <input type="checkbox" name="lembre-se">Lembre-se de mim<br>
-            <button id="entrar">Entrar</button><br>
-            <button id="esqueci-senha">Esqueci minha senha</button>
-        </fieldset>
-    </form>
+    <div id="box">
+        <form>
+            <fieldset id="fild">
+                <div id="img"><img src="../img/image 5.png"></div>
+                    <div id="email">
+                    Email:  
+                    <input class="input-login" type="email" name="email">
+                </div>
+                <div id="senha">
+                    Senha:
+                    <input class="input-login" type="password" name="Senha">
+                </div>
+                <div>
+                    <label class="switch">
+                    <span class="switch-text">Lembre-se de mim</span>
+                    <div class="switch-wapper">
+                        <input type="checkbox" name="lembre-se">
+                        <span class="switch-button"></span>
+                    </div>
+                    </label>
+                    </div>
+                    <div>
+                        <button id="entrar">Entrar</button>
+                    </div>
+                    <div>
+                        <button id="esqueci-senha">Esqueci minha senha</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     <button id="voltar">Voltar</button>
+    <footer>
+        <small>Copyright 2023 SENAI clinica médica - Todos os direitos reservados </small>
+    </footer>
 </body>
-<footer>
-    <small>Copyright 2023 SENAI clinica médica - Todos os direitos reservados </small>
-</footer>
+
 </html>

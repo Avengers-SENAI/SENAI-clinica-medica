@@ -1,3 +1,131 @@
-.saa{
-    font-family: Roboto
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color:#f9f9f9 ;
+}
+
+#fild{
+    width: 200px;
+    height: 340px;   
+    background-color: #DEF7F4;
+}
+#box{
+    width: 207vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-login{
+    border-radius: 8px;
+}
+#senha{
+    height: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#entrar{
+    background-color: #85C9C6;
+    width: 200PX;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    left: 53px;
+    top: 25px;
+}
+#esqueci-senha{
+    background-color: #DEF7F4;
+    width: auto;
+    height: 20;
+    border-radius: 25px;
+    position:relative;
+    left: 200px;
+    top: 52px;
+    font-size: 10px;
+}
+#voltar{
+    width: 100px;
+    height: 20px;
+}
+.switch{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+.switch-wapper{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    position: relative;
+}
+.switch .switch-wapper .switch-button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #475569;
+}
+.switch .switch-wapper input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch .switch-text{
+    padding-right: 0.3rem;
+    font-size: 15px;
+}
+.switch .switch-wapper .switch-button::before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+    border-radius: 50%;
+    transition: .4s all ease;
+    background-color: aliceblue;
+}
+.switch .switch-wapper input:checked + .switch-button{
+    background-color: #58a751;
+}
+.switch .switch-wapper input:checked + .switch-button::before{
+    transform: translateX(12px);
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+#entrar:hover{
+    background-color: #DEF7F4;
+}
+#entrar:focus:invalid{
+    background-color: rgb(252, 44, 44);
+    box-shadow: 0 0 3px rgb(252, 44, 44);
+}
+#voltar{
+    background-color: #85C9C6;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+#voltar:hover{
+    background-color: #DEF7F4;
 }
