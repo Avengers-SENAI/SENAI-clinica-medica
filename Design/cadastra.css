@@ -1,0 +1,70 @@
+
+body{
+    background-color: #DEF7F4;
+}
+form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 80px auto;
+    max-width: 600px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  input[type="number"] {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  input[type="date"] {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  button[type="submit"] {
+    position: relative;
+    left: 38%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  legend{
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  
