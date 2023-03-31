@@ -1,0 +1,100 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+header{
+    background-color: #DEF7F4;
+    width: 100%;
+    height: 97px;
+}
+.texto{
+    background-color:#00C0DA ;
+    color: white;
+    border-radius: 4px;
+}
+fieldset{
+    width: 400px;
+    height: 400px;
+    background-color: #0A8095;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+footer{
+    background-color: #9ED8DC;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    top: 950px;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;    
+}
+h3{
+    position: absolute;
+    left: 150px;
+    top: 140px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    background-color: #0A8095;
+}
+#mural{
+    position: absolute;
+    left: 750px;
+}
+#marcarconsultas{
+    position: absolute;
+    width: 200px;
+    left: 200px;
+
+}
+#cadastrar{
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    left: 200px;
+}
+#financeiro{
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    left: 200px;
+}
+#agendadodia{
+    position: absolute;
+    top: 80px;
+    width: 200px;
+    left: 200px;
+}
+#medicos{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    left: 500px;
+}
+#especialidades{
+    position: absolute;
+    top: 120px;
+    width: 200px;
+    left: 500px;
+}
+#parceiros{
+    position: absolute;
+    top: 140px;
+    width: 200px;
+    left: 500px;
+}
+#prontuarios{
+    position: absolute;
+    top: 160px;
+    width: 200px;
+    left: 500px;
+}
+#relatorios{
+    position: absolute;
+    top: 180px;
+    width: 200px;
+    left: 500px;
+}
+#3
