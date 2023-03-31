@@ -114,6 +114,7 @@ footer{
 }
 #entrar:hover{
     background-color: #DEF7F4;
+    cursor: pointer;
 }
 #entrar:focus:invalid{
     background-color: rgb(252, 44, 44);
@@ -125,6 +126,7 @@ footer{
     position: absolute;
     bottom: 10%;
     left: 10%;
+    cursor: pointer;
 }
 #voltar:hover{
     background-color: #DEF7F4;
