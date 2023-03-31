@@ -9,9 +9,11 @@ body{
     background-color: #DEF7F4;
 }
 #box{
-    width: 207vh;
-    height: 100vh;
+    width: 1180px;
+    height: 500px;
     display: flex;
+    left: 40px;
+    position: relative;
     justify-content: center;
     align-items: center;
 }
@@ -33,14 +35,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-#entrar{
+.entrar{
     background-color: #85C9C6;
-    width: 200PX;
+    width: 90PX;
     height: 25px;
     border-radius: 25px;
     position: relative;
-    left: 53px;
-    top: 25px;
+    left: 10px;
+    top: 05px;
+    
 }
 #esqueci-senha{
     background-color: #DEF7F4;
@@ -49,7 +52,7 @@ body{
     border-radius: 25px;
     position:relative;
     left: 200px;
-    top: 52px;
+    top: 22px;
     font-size: 10px;
 }
 #voltar{
