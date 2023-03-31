@@ -1,6 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: #F9F9F9
+}
 .container{
-    background-color: #F9F9F9;
     padding: 0;
     display: grid;
     gap: 5px;/*espaçamento entre as colunas*/
@@ -45,10 +47,15 @@
     height: 200px;
     width: 200px;
     font-family: roboto;
+    text-decoration: underline;
+    color: blue ;
+
 }
 .logout:hover{
     cursor: pointer;
-    color: blue ;
+    color: red ;
+    text-decoration: none;
+    
 
 }
 
