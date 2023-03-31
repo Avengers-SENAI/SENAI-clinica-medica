@@ -13,44 +13,44 @@
     <div id="header">
     <img src="../img/image 5.png">
         <div class="cabeçalho">
-            <p>Painel</p>
-            <p>Agenda</p> 
-            <p>Pacientes</p>
-            <p>Gestão</p>
-            <p>Marketing</p>
-            <p>Outros</p> 
-    <div id="Logout"><button>Logout</button></div> </div>
+            <p id="painel">Painel</p>
+            <p id="agenda">Agenda</p> 
+            <p id="Paciente">Pacientes</p>
+            <p id="gestão">Gestão</p>
+            <p id="marketin">Marketing</p>
+            <p id="outros">Outros</p> 
+    <div id="Logout"><button type="menu">Logout</button></div> </div>
     
 </div>
-<br><form>
+<form>
     <Div class="content">
         
-        <input type="text" name="Busca Paciente"></imput>
-        <button>Buscar</button>
-        <button>Novo Agendamento</button>
-        <button>Lista de Espera</button>
-        <button>Observações</button>
-        <button>Imprimir Agenda</button>
-        <button>Configurações da Agenda</button>
+        <div class="busca"><input type="text" name="Busca Paciente" ></imput></div>
+        <div class="buscar"><button type="menu">Buscar</button></div>
+        <div class="novo"><button type="menu">Novo Agendamento</button></div>
+        <div class="lista"><button type="menu">Lista de Espera</button></div>
+        <div class="observacao"><button type="menu">Observações</button></div>
+        <div class="imprimir"><button type="menu">Imprimir Agenda</button></div>
+        <div class="agendar"><button type="menu">Configurações da Agenda</button></div>
     </Div>   
 
    
       
     
         <div class="calendario">
-<center><table width="60%" border="1">
-    <caption><h2>AGENDA DO DIA</h2></caption>
+    <table id="tabela" width="60%" border="1">
+    <caption ><h2>AGENDA DO DIA</h2></caption><br>
     <tr>
-    <th>Horario</th>
-    <th>Segunda</th>  
-    <th>Terça</th>
-    <th>Quarta</th>
-    <th>Quinta</th>
-    <th>Sexta</th>
-    <th>Sábado</th> 
+    <th class="titulo">Horario</th>
+    <th class="titulo">Segunda</th>  
+    <th class="titulo">Terça</th>
+    <th class="titulo">Quarta</th>
+    <th class="titulo">Quinta</th>
+    <th class="titulo">Sexta</th>
+    <th class="titulo">Sábado</th> 
     </tr>
 <tr>
-    <td>09:00</td>
+    <td class="titulo">09:00</td>
     <td>Carlos Bianchesi</td>
     <td>Gustavo Menezes</td>
     <td></td>
@@ -60,7 +60,7 @@
 </tr>
 
 <tr>
-    <td>10:00</td>
+    <td class="titulo">10:00</td>
     <td>Antonio Cesar</td>
     <td>João Wasconcelos</td>
     <td>Felipe Martins</td>
@@ -70,7 +70,7 @@
 </tr>
 
 <tr>
-    <td>11:00</td>
+    <td class="titulo">11:00</td>
     <td>Nelson Martinho</td>
     <td></td>
     <td>Camila Consorti</td>
@@ -80,7 +80,7 @@
 </tr>
 
 <tr>
-    <td>13:00</td>
+    <td class="titulo">13:00</td>
     <td>Hélio Gonçalves</td>
     <td></td>
     <td></td>
@@ -89,7 +89,7 @@
     <td>Carla Cristina</td>
 
     <tr>
-        <td>14:00</td>
+        <td class="titulo">14:00</td>
         <td></td>
         <td>Paulo Canhada</td>
         <td></td>
@@ -100,7 +100,7 @@
 </tr>
 
 <tr>
-    <td>15:00</td>
+    <td class="titulo">15:00</td>
     <td>Huelber Lencio</td>
     <td></td>
     <td>Roberto Arriaza</td>
@@ -109,7 +109,7 @@
     <td></td>
 </tr>
 
-</table></center>
+</table>
 </div>
 </div>
 
