@@ -5,8 +5,9 @@ body{
 }
 #tabela{
     width: 60%;
+    height: -100px;
     border: 1;
-    top: -120px;
+    top: -190px;
     position: relative;
     left: 300px;
 }
@@ -38,18 +39,16 @@ body{
     
     }
 
-    #footer{
-       
+    footer{
+        top: 626px;
         background-color: #9ed8d5;
         width:100%;
         height: 50px;         
         align-items: center;
         position:absolute;
-        bottom: 0;
         padding: 20px;
         position: relative;
         
-                
     }
     
     .Rodape{
@@ -62,7 +61,6 @@ body{
         position: absolute;
         border: 15px;
         margin-top:-80px;
-        width:all;
         height: 50px;
         display:flex;
         justify-content: center;
@@ -85,7 +83,7 @@ body{
             left: 30px;
         }
         .content{
-            
+            width: 180px;
             position: relative;
             left: 20%;
             top: -20px;
@@ -94,45 +92,60 @@ body{
         }
         .busca{
             position: relative;
-            left: -175px;
-            top: 20px;
+            left: -225px;
+            top: 56px;
            
 
         }
         .buscar{
             position: relative;
-            left: 0px;
-            top: 0px;
+            left: -30px;
+            top: 30px;
             
         }
         .novo{
             position: relative;
-            left: 100px;
-            top:-20px;
+            left: 90px;
+            top:-7px;
             
         }
         .lista{
             position: relative;
-            left: 230px;
-            top: -38px;
+            left: 300px;
+            top: -44px;
+            width: auto;
         }
         .observacao{
             position: relative;
-            left: 500px;
-            top: -55px;
-           
+            left: 490px;
+            top: -80px;
+          
         }
         .imprimir{
             position: relative;
             left: 660px;
-            top: -73px;
-           
+            top: -116px;
+            width: auto;
+            
         }
         .agendar{
             position: relative;
-            left: 800px;
-            top: -95px;
-            
+            left: 850px;
+            top: -154px;
+            width: auto;
+        }
+        button[type="menu"] {
+            background-color: #def7f4;
+            color: black;
+            border: black solid 1px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 10px;
+            width: auto;
+            padding: 10px;
+        }
+        form{
+            height: 10px;
         }
 
      
