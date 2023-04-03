@@ -21,13 +21,6 @@ header{
 }
 
 .texto{
-<<<<<<< HEAD
-    background-color:#00C0DA ;
-    color: white;
-    border-radius: 4px;
-    width: 250px;
-    padding: 10px;
-=======
     background-color:#DEF7F4 ;
     color: rgb(0, 0, 0);
     border-radius: 10px;
@@ -36,7 +29,6 @@ header{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     width: 200px;
->>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 fieldset{
     width: 430px;
@@ -109,29 +101,12 @@ h3{
 #marcarconsultas{
     position: absolute;
     width: 200px;
-<<<<<<< HEAD
-    left: 70px;
-    top: 10px;
-
-=======
     left: 220px;
     top: 190px;
->>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 
 }
 #cadastrar{
     position: absolute;
-<<<<<<< HEAD
-    top: 130px;
-    width: 200px;
-    left: 70px;
-}
-#financeiro{
-    position: absolute;
-    top: 240px;
-    width: 200px;
-    left: 70px;
-=======
     top: 80px;
     width: 200px;
     left: 220px;
@@ -142,15 +117,11 @@ h3{
     top: 250px;
     width: 200px;
     left: 220px;
->>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 #agendadodia{
     position: absolute;
-    top: 350px;
+    top: 80px;
     width: 200px;
-<<<<<<< HEAD
-    left: 70px;
-=======
     left: 220px;
     top: 130px;
 }
@@ -159,7 +130,6 @@ h3{
     top: 10px;
     width: 200px;
     left: 0px;
->>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 #medicos{
     position: absolute;
@@ -192,23 +162,6 @@ h3{
     width: 200px;
     left: 0px;
 }
-<<<<<<< HEAD
-#cancelar{
-    position: absolute;
-    top: 200px;
-    width: 200px;
-    left: 500px;
-}
-#btn-logout{
-    position: absolute;
-    top: 100px;
-    width: 200px;
-    left: 400px;
-}
-#texto2{
-    background-color: #0A8095;
-    left: 1000px;
-=======
 #logout{
     position: absolute;
     top: -190px;
@@ -216,5 +169,4 @@ h3{
     left: 970px;
     color: #fff;
     background-color: #0A8095;
->>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
