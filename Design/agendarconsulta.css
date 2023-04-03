@@ -12,8 +12,7 @@ header{
 }
 #container{
     background-color: #9ED8DC;
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: rgb(255, 255, 255);
 
     
     position: absolute;
@@ -116,7 +115,7 @@ footer{
 
 
 #btn-voltar{
-    background-color: #464646;
+    background-color: #737272;
     color: white;
     position: absolute;
     top: 470px;

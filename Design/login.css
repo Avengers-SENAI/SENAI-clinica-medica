@@ -4,9 +4,19 @@ body{
 }
 
 #fild{
-    width: 200px;
-    height: 340px;   
+    width: 500px;
+    height: 440px;   
     background-color: #DEF7F4;
+}
+#img{
+    background-image: url(../img/image\ 5.png);
+    height: 100px;
+    width: 70%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-position: center;
+    position: relative;
+    left: 69px;
 }
 #box{
     width: 1180px;
@@ -18,41 +28,40 @@ body{
     align-items: center;
 }
 #email{
-    width: 300px;
-    height: 75px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .input-login{
     border-radius: 8px;
+    padding: 5px;
+    width: 300px;
 }
 #senha{
-    height: 20px;
-    margin-bottom: 15px;
-    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .entrar{
     background-color: #85C9C6;
-    width: 90PX;
+    width: 150PX;
     height: 25px;
     border-radius: 25px;
     position: relative;
-    left: 10px;
-    top: 05px;
+    left: 20px;
+    top: 40px;
     
 }
 #esqueci-senha{
     background-color: #DEF7F4;
     width: auto;
-    height: 20;
+    padding: 5px;
+    height: 25;
     border-radius: 25px;
     position:relative;
-    left: 200px;
-    top: 22px;
+    left: 380px;
+    top: 110px;
     font-size: 10px;
 }
 #voltar{
@@ -117,6 +126,7 @@ footer{
 }
 #entrar:hover{
     background-color: #DEF7F4;
+    cursor: pointer;
 }
 #entrar:focus:invalid{
     background-color: rgb(252, 44, 44);
@@ -128,6 +138,7 @@ footer{
     position: absolute;
     bottom: 10%;
     left: 10%;
+    cursor: pointer;
 }
 #voltar:hover{
     background-color: #DEF7F4;

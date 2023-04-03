@@ -1,60 +1,127 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    background-color: #f9f9f9;
+}
 header{
     background-color: #DEF7F4;
     width: 100%;
-    height: 97px;
+    height: 70px;
 }
+
+.imagem{
+    background-image: url(../img/image\ 5.png);
+    height: 100px;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 25% 70%;
+    margin-bottom: 10px; 
+      
+}
+
 .texto{
+<<<<<<< HEAD
     background-color:#00C0DA ;
     color: white;
     border-radius: 4px;
     width: 250px;
     padding: 10px;
+=======
+    background-color:#DEF7F4 ;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid black 2px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+>>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 fieldset{
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height:300px;
     background-color: #0A8095;
     position: absolute;
     top: 200px;
     left: 80px;
+    border-radius: 10px;
+    border: #000000 solid 2px; 
 }
 footer{
     background-color: #9ED8DC;
-    bottom: 0;
     position: absolute;
     width: 100%;
-    top: 950px;
+    top: 550px;
     display: flex;
-    height: 10vh;
+    height: 59px;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    
+      
 }
 h3{
     position: absolute;
-    left: 150px;
+    left: 85px;
     top: 140px;
-    background-color: black;
     color: white;
     height: 30px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     background-color: #0A8095;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border:#000000 solid 2px;
+    
 }
+
 #mural{
     position: absolute;
-    left: 750px;
+    left: 600px;
+    width: 500px;
+    height: 300px;
+    background-color: #0A8095;
+    top: 120px;
+    border-radius: 10px;
+    border:#000000 solid 2px;
+
 }
+.texto1{
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color:  #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.texto2{ justify-content:center;
+    position: relative;
+    text-align: justify;
+    color:  #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    padding: 10px;
+
+}
+
 #marcarconsultas{
     position: absolute;
     width: 200px;
+<<<<<<< HEAD
     left: 70px;
     top: 10px;
 
+=======
+    left: 220px;
+    top: 190px;
+>>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 
 }
 #cadastrar{
     position: absolute;
+<<<<<<< HEAD
     top: 130px;
     width: 200px;
     left: 70px;
@@ -64,43 +131,68 @@ h3{
     top: 240px;
     width: 200px;
     left: 70px;
+=======
+    top: 80px;
+    width: 200px;
+    left: 220px;
+    top: 10px;
+}
+#financeiro{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    left: 220px;
+>>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 #agendadodia{
     position: absolute;
     top: 350px;
     width: 200px;
+<<<<<<< HEAD
     left: 70px;
+=======
+    left: 220px;
+    top: 130px;
+}
+#cancelar{
+    position: absolute;
+    top: 10px;
+    width: 200px;
+    left: 0px;
+>>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }
 #medicos{
     position: absolute;
-    top: 100px;
+    top: 80px;
     width: 200px;
-    left: 500px;
+    left: 220px;
+    top: 70px;
 }
 #especialidades{
     position: absolute;
-    top: 120px;
+    top: 190px;
     width: 200px;
-    left: 500px;
+    left: 0px;
 }
 #parceiros{
     position: absolute;
-    top: 140px;
+    top: 130px;
     width: 200px;
-    left: 500px;
+    left: 0px;
 }
 #prontuarios{
     position: absolute;
-    top: 160px;
+    top: 250px;
     width: 200px;
-    left: 500px;
+    left: 0px;
 }
 #relatorios{
     position: absolute;
-    top: 180px;
+    top: 70px;
     width: 200px;
-    left: 500px;
+    left: 0px;
 }
+<<<<<<< HEAD
 #cancelar{
     position: absolute;
     top: 200px;
@@ -116,4 +208,13 @@ h3{
 #texto2{
     background-color: #0A8095;
     left: 1000px;
+=======
+#logout{
+    position: absolute;
+    top: -190px;
+    width: 200px;
+    left: 970px;
+    color: #fff;
+    background-color: #0A8095;
+>>>>>>> 117765f32ea0b74e36b89b01440647e162cbeeca
 }

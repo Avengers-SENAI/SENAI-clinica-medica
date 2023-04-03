@@ -32,7 +32,11 @@ body{
 }
 button[type="submit"]{
     position: fixed;
-    
+    bottom: 70px;
+    left: 35px;
+    padding: 5PX;
+    width: 90px;
+    background-color: #A5E5DA;
     text-align: center;
     display: inline-block;
     cursor: pointer;
