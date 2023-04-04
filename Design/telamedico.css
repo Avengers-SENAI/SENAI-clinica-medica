@@ -3,7 +3,20 @@
 body{
     background-color: #f9f9f9;
 }
-
+#tabela{
+    width: 60%;
+    height: -100px;
+    border: 1;
+    top: -190px;
+    position: relative;
+    left: 300px;
+}
+.titulo{
+    background-color: cornflowerblue;
+    color: #000000;
+    width: 150px;
+    height: 50px;
+}
 .container{
     background-color: #F9F9F9;
     padding: 0;
@@ -19,24 +32,23 @@ body{
     grid-area: header;
     justify-content: flex-end;
     width: all;
-    background-color: #A5E5DA; 
+    background-color: #def7f4; 
     border: 15px;
     margin: 0px;
     height: 100%;
     
     }
 
-    #footer{
-       
+    footer{
+        top: 626px;
         background-color: #9ed8d5;
         width:100%;
         height: 50px;         
         align-items: center;
         position:absolute;
-        bottom: 0;
-        padding: 20px
+        padding: 20px;
+        position: relative;
         
-                
     }
     
     .Rodape{
@@ -49,7 +61,6 @@ body{
         position: absolute;
         border: 15px;
         margin-top:-80px;
-        width:all;
         height: 50px;
         display:flex;
         justify-content: center;
@@ -63,12 +74,78 @@ body{
         #Logout{
             position: relative;
             left: 200px;
+            padding: 7px;
         }
 
         .calendario{
             padding: 30px;
             top: 50px;
             left: 30px;
+        }
+        .content{
+            width: 180px;
+            position: relative;
+            left: 20%;
+            top: -20px;
+            
+            
+        }
+        .busca{
+            position: relative;
+            left: -225px;
+            top: 56px;
+           
+
+        }
+        .buscar{
+            position: relative;
+            left: -30px;
+            top: 30px;
+            
+        }
+        .novo{
+            position: relative;
+            left: 90px;
+            top:-7px;
+            
+        }
+        .lista{
+            position: relative;
+            left: 300px;
+            top: -44px;
+            width: auto;
+        }
+        .observacao{
+            position: relative;
+            left: 490px;
+            top: -80px;
+          
+        }
+        .imprimir{
+            position: relative;
+            left: 660px;
+            top: -116px;
+            width: auto;
+            
+        }
+        .agendar{
+            position: relative;
+            left: 850px;
+            top: -154px;
+            width: auto;
+        }
+        button[type="menu"] {
+            background-color: #def7f4;
+            color: black;
+            border: black solid 1px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 10px;
+            width: auto;
+            padding: 10px;
+        }
+        form{
+            height: 10px;
         }
 
      
