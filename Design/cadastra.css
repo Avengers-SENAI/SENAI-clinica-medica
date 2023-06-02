@@ -63,6 +63,8 @@ form {
     font-size: 26px;
   }
   button[type="button"] {
+    color: black;
+    text-decoration: none;
     position: relative;
     left: -450px;
     bottom: -60px;
@@ -77,3 +79,4 @@ form {
     border-radius: 3px;
     cursor: pointer;
   }
+
