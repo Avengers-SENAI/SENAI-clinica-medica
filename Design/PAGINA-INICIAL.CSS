@@ -1,11 +1,17 @@
-*{margin:0%; padding: 0%;box-sizing:border-box;}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
-body{background-color: #f9f9f9;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
-
-#content{
+body {
     background-color: #f9f9f9;
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content {
+    background-color: #f9f9f9;
+
     height: auto;
     width: 1200px;
     text-align: center;
@@ -13,19 +19,21 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: grid;
     gap: 5px;
-    grid-template-areas: 
-    'header   header  header  header  header'
-    'content  content content content content'
-    'footer   footer  footer  footer  footer';
+    grid-template-areas:
+        'header   header  header  header  header'
+        'content  content content content content'
+        'footer   footer  footer  footer  footer';
 }
-#header{
+
+#header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #def7f4;
     width: 1260px;
     height: 69px;
 
 }
-.Faleconosco{
+
+.Faleconosco {
     position: absolute;
     top: 20px;
     left: 850px;
@@ -33,15 +41,15 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     width: 200px;
 }
 
-.Especialidades{ 
+.Especialidades {
     position: absolute;
     top: 20px;
     left: 250px;
     height: 200px;
     width: 200px;
 }
-
-.Exames{ 
+  
+.Exames {
     position: absolute;
     top: 20px;
     left: 450px;
@@ -50,41 +58,56 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 
-.Convenio{ 
+.Convenio {
     position: absolute;
     top: 20px;
     left: 650px;
     height: 200px;
     width: 200px;
+   
 }
 
 
-.login{ 
+.login {
     position: absolute;
     margin-top: -110px;
     left: 1130px;
     height: 200px;
     width: 120px;
+    text-decoration: none;
+    color: #000000;
 }
 
-.imagem{
+.imagem {
     background-image: url(../img/image\ 5.png);
     height: 100px;
     width: 70%;
     background-repeat: no-repeat;
-    background-position:left top;
+    background-position: left top;
     background-size: 25% 70%;
-    margin-bottom: 10px; 
-      
+    margin-bottom: 10px;
+
+}
+.imagem1{
+    background-image: url(../img/Group\ 97.png);
+    height: 40px;
+    width: 40%;
+    position: absolute;
+    bottom: -710px;
+    left: 700px;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 25% 70%;
+    margin-bottom: 10px;
 }
 
-#content{
+#content {
     text-align: justify;
     color: #000000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#bloco1{
+#bloco1 {
     height: 303px;
     width: 600px;
     background-color: #24c1b6;
@@ -98,16 +121,17 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     top: 140px;
 }
 
-#tituloblc1{
-    
+#tituloblc1 {
+
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     text-align: center;
     font-weight: bold;
     padding: 60px;
     margin: -5px;
     top: -50px;
     width: 400px;
-    height: 50px;   
+    height: 50px;
     position: absolute;
     left: 100px;
     justify-content: center;
@@ -115,7 +139,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     top: -45px;
 }
 
-.carrossel{
+.carrossel {
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
@@ -126,24 +150,42 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     position: absolute;
     scrollbar-width: none;
     border: #000000 solid 2px;
-  
-    
 }
 
 
 
-@keyframes animacao{
-    0%{margin-left: 0;}
-    17%{margin-left: 0;}
-    34%{margin-left: -100%;}
-    51%{margin-left: -100%;}
-    68%{margin-left: -200%;}
-    85%{margin-left: -200%;}
-    100%{margin-left: -300%;}
-    
+@keyframes animacao {
+    0% {
+        margin-left: 0;
+    }
+
+    17% {
+        margin-left: 0;
+    }
+
+    34% {
+        margin-left: -100%;
+    }
+
+    51% {
+        margin-left: -100%;
+    }
+
+    68% {
+        margin-left: -200%;
+    }
+
+    85% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+
 }
 
-.card{
+.card {
 
     width: 600px;
     height: 299px;
@@ -154,10 +196,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     animation-name: animacao;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    
+
 }
 
-.carrossel1{
+.carrossel1 {
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
@@ -171,7 +213,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-.card1{
+.card1 {
     width: 600px;
     height: 299px;
     background-color: lightblue;
@@ -183,7 +225,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     animation-iteration-count: infinite;
 }
 
-.carrossel2{
+.carrossel2 {
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
@@ -196,7 +238,8 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     border: #000000 solid 2px;
 
 }
-.carrossel3{
+
+.carrossel3 {
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
@@ -209,7 +252,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     position: absolute;
 }
 
-figcaption{
+figcaption {
     color: #ffff;
     width: 600px;
     height: 65px;
@@ -222,8 +265,8 @@ figcaption{
     background-color: #7a737379;
     position: relative;
     top: 0;
-    
-    
+
+
 
 }
 
@@ -240,12 +283,9 @@ figcaption{
     background-color: #7a737379;
     position: relative;
     top: 100;
-    
-    
+}
 
-}    
-
-.texto1{
+.texto1 {
     height: 100px;
     width: 550px;
     margin: 5px;
@@ -255,7 +295,7 @@ figcaption{
 
 }
 
-#bloco2{
+#bloco2 {
     height: 303px;
     width: 600px;
     background-color: #24c1b6;
@@ -269,21 +309,22 @@ figcaption{
     top: 500px;
 }
 
-.tituloblc2{
+.tituloblc2 {
     text-align: center;
     font-weight: bold;
     padding: 60px;
     margin: -5px;
     top: -50px;
     width: 400px;
-    height: 50px;   
+    height: 50px;
     position: absolute;
     left: 100px;
     justify-content: center;
+    font-size: 1.2em;
 
 }
 
-.texto2{
+.texto2 {
     height: 100px;
     width: 500px;
     margin: -5px;
@@ -291,7 +332,7 @@ figcaption{
 
 }
 
-#missao{
+#missao {
     height: 300px;
     width: 394.4px;
     background-color: #2AE5DA;
@@ -305,12 +346,12 @@ figcaption{
     position: absolute;
     left: 26px;
     top: 850px;
-    
+
 }
 
-.img2{
-   
-    width:  394.4px;
+.img2 {
+
+    width: 394.4px;
     text-align: center;
     background-repeat: no-repeat;
     position: relative;
@@ -318,21 +359,21 @@ figcaption{
     left: -15px;
 }
 
-.titulomissao{
-    width:  394.4px;
+.titulomissao {
+    width: 394.4px;
     text-align: center;
     font-weight: bold;
     padding: 5px;
     margin: -5px;
     position: absolute;
     top: 15px;
-    left:5px;
+    left: 5px;
     justify-content: center;
-    
-    
+
+
 }
 
-.textomissao{
+.textomissao {
     height: 100px;
     width: auto;
     margin: -5px;
@@ -341,7 +382,7 @@ figcaption{
     position: absolute;
 }
 
-#visao{
+#visao {
     height: 300px;
     width: 394.4px;
     background-color: #2AE5DA;
@@ -355,12 +396,12 @@ figcaption{
     position: absolute;
     left: 441px;
     top: 850px;
-   
+
 
 }
 
-.titulovisao{
-    
+.titulovisao {
+
     width: 394.4px;
     text-align: center;
     font-weight: bold;
@@ -369,24 +410,25 @@ figcaption{
     position: absolute;
     top: 15px;
     justify-content: center;
-    left:5px;}
+    left: 5px;
+}
 
 
-    
 
-.textovisao{
+
+.textovisao {
     height: 100px;
     width: 394.4px;
     margin: -45px;
     position: absolute;
     top: 200px;
-    left:40px;
+    left: 40px;
     padding: 15px;
-   
+
 
 }
 
-#valores{
+#valores {
     height: 300px;
     width: 394.4px;
     background-color: #14efe1;
@@ -400,10 +442,11 @@ figcaption{
     position: absolute;
     left: 856px;
     top: 850px;
-   
-    
+
+
 }
-.titulovalores{
+
+.titulovalores {
     width: 380px;
     height: 30px;
     text-align: center;
@@ -412,9 +455,10 @@ figcaption{
     margin: -5px;
     position: absolute;
     top: 15px;
-    left:10px;}
+    left: 10px;
+}
 
-.textovalores{
+.textovalores {
     height: 100px;
     width: 394.4px;
     margin: -45px;
@@ -424,59 +468,72 @@ figcaption{
     padding: 15px;
 }
 
-.img2{
+.img2 {
     position: relative;
     background-repeat: no-repeat;
 
 }
 
 
-footer{
-   
+footer {
+
     position: absolute;
-    bottom: -650px;
+    bottom: -800px;
     background-color: #06443d;
-    height: 80px;
+    height: 170px;
     width: 1260px;
     justify-content: center;
     text-align: center;
     border-top: 5px #000000 solid;
     align-items: center;
 
-    
+
 }
 
-.rodape{
-    justify-content:center;
+.rodape {
+    justify-content: center;
     text-align: center;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     position: relative;
-    top: 30px;
+    top: 130px;
     color: #ffffff;
-    
+
 }
 
-.text1{
-    justify-content:left;
+.text1 {
+    justify-content: left;
     text-align: center;
-    display:flex;
-    align-items:baseline;
+    display: flex;
+    align-items: baseline;
     position: absolute;
-    top: -5px;
+    top: 80px;
     margin: 15px;
     left: 10px;
     color: #ffffff;
 }
 
-.text2{
-    justify-content:right;
+.text2 {
+    justify-content: right;
     text-align: center;
-    display:flex;
-    align-items:baseline;
+    display: flex;
+    align-items: baseline;
     position: relative;
-    top: -20px;
+    top: 70px;
     margin: 15px;
     right: 15px;
     color: #ffffff;
+}
+
+.text3 {
+    justify-content: right;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    top: -90px;
+    margin: 15px;
+    right: 15px;
+    color: #ffffff;
+    
 }
