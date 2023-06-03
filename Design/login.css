@@ -45,11 +45,11 @@ body{
 }
 .entrar{
     background-color: #85C9C6;
-    width: 150PX;
-    height: 25px;
+    width: 190PX;
+    height: 35px;
     border-radius: 25px;
     position: relative;
-    left: 20px;
+    left: 150px;
     top: 40px;
     
 }
@@ -143,3 +143,11 @@ footer{
 #voltar:hover{
     background-color: #DEF7F4;
 }
+.mensagem-erro {
+    color: red;
+    display: none;
+    position: absolute;
+    top: 290px;
+    font-size: 20px;
+  }
+  
