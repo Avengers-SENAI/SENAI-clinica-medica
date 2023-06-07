@@ -47,15 +47,7 @@ body{
     height: 200px;
     width: 200px;
     font-family: roboto;
-    text-decoration: underline;
-    color: blue ;
-
-}
-.logout:hover{
-    cursor: pointer;
-    color: red ;
-    text-decoration: none;
-    
+    color: white ;
 
 }
 
