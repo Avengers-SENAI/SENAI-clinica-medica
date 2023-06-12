@@ -7,6 +7,7 @@
 body {
     background-color: #f9f9f9;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1450px;
 }
 
 #content {
@@ -48,7 +49,7 @@ body {
     height: 200px;
     width: 200px;
 }
-  
+
 .Exames {
     position: absolute;
     top: 20px;
@@ -64,7 +65,7 @@ body {
     left: 650px;
     height: 200px;
     width: 200px;
-   
+
 }
 
 
@@ -88,15 +89,16 @@ body {
     margin-bottom: 10px;
 
 }
-.imagem1{
+
+.imagem1 {
     background-image: url(../img/Group\ 97.png);
     height: 40px;
     width: 40%;
     position: absolute;
-    bottom: -710px;
-    left: 700px;
+    bottom: -790px;
+    left: 370px;
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
     background-size: 25% 70%;
     margin-bottom: 10px;
 }
@@ -110,19 +112,21 @@ body {
 #bloco1 {
     height: 303px;
     width: 600px;
-    background-color: #24c1b6;
+    background-color: #393b3b;
     padding: 15px;
     margin: -20px;
     margin-top: -10px;
-    border: solid #000000 2px;
+    border: solid #ffffff 2px;
     justify-content: center;
     position: absolute;
     left: 25px;
     top: 140px;
+    border-radius: 20px;
+    z-index: 1;
 }
 
 #tituloblc1 {
-
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-align: center;
@@ -137,6 +141,7 @@ body {
     justify-content: center;
     position: relative;
     top: -45px;
+    z-index: 1;
 }
 
 .carrossel {
@@ -150,6 +155,8 @@ body {
     position: absolute;
     scrollbar-width: none;
     border: #000000 solid 2px;
+    border-radius: 20px;
+    
 }
 
 
@@ -185,7 +192,7 @@ body {
 
 }
 
-.card {
+.card{
 
     width: 600px;
     height: 299px;
@@ -196,6 +203,7 @@ body {
     animation-name: animacao;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 20px;
 
 }
 
@@ -210,6 +218,7 @@ body {
     scrollbar-width: none;
     top: 235px;
     position: absolute;
+    border-radius: 20px;
 
 }
 
@@ -223,6 +232,7 @@ body {
     animation-name: animacao;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 20px;
 }
 
 .carrossel2 {
@@ -236,6 +246,7 @@ body {
     position: absolute;
     scrollbar-width: none;
     border: #000000 solid 2px;
+    border-radius: 20px;
 
 }
 
@@ -250,6 +261,8 @@ body {
     scrollbar-width: none;
     top: 235px;
     position: absolute;
+    border-radius: 20px;
+    border-radius: 20px;
 }
 
 figcaption {
@@ -265,25 +278,9 @@ figcaption {
     background-color: #7a737379;
     position: relative;
     top: 0;
-
-
-
+    border-radius: 20px;
 }
 
-.{
-    color: #ffff;
-    width: 600px;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: animacao;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    background-color: #7a737379;
-    position: relative;
-    top: 100;
-}
 
 .texto1 {
     height: 100px;
@@ -292,13 +289,14 @@ figcaption {
     padding: 15px;
     position: relative;
     top: -10px;
+    color: white;
 
 }
 
 #bloco2 {
     height: 303px;
     width: 600px;
-    background-color: #24c1b6;
+    background-color: #549867;
     padding: 15px;
     margin: -20px;
     margin-top: -10px;
@@ -307,6 +305,7 @@ figcaption {
     position: absolute;
     left: 625px;
     top: 500px;
+    border-radius: 20px;
 }
 
 .tituloblc2 {
@@ -329,6 +328,8 @@ figcaption {
     width: 500px;
     margin: -5px;
     padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 
 }
 
@@ -478,13 +479,12 @@ figcaption {
 footer {
 
     position: absolute;
-    bottom: -800px;
+    bottom: -900px;
     background-color: #06443d;
-    height: 170px;
+    height: 50px;
     width: 1260px;
     justify-content: center;
     text-align: center;
-    border-top: 5px #000000 solid;
     align-items: center;
 
 
@@ -496,9 +496,72 @@ footer {
     display: flex;
     align-items: center;
     position: relative;
-    top: 130px;
+    top: 10px;
     color: #ffffff;
 
+}
+
+#trampo {
+    background-color: #0A8095;
+    color: white;
+    width: 300px;
+    height: 170px;
+    border: 2px solid rgb(3, 73, 110);
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+}
+
+#trampo1 {
+    background-color: #0A8095;
+    color: white;
+    width: 300px;
+    height: 170px;
+    border: 2px solid rgb(3, 73, 110);
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+    left: 350px;
+}
+
+#imagem4 {
+
+    background-image: url(../img/senai1.png);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60% 80%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 75px;
+}
+
+#trampo2 {
+    background-color: #0A8095;
+    color: white;
+    width: 300px;
+    height: 170px;
+    border: 2px solid rgb(3, 73, 110);
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+    left: 700px;
 }
 
 .text1 {
@@ -507,20 +570,21 @@ footer {
     display: flex;
     align-items: baseline;
     position: absolute;
-    top: 80px;
+    top: 20px;
     margin: 15px;
     left: 10px;
     color: #ffffff;
 }
 
 .text2 {
-    justify-content: right;
+    justify-content: left;
     text-align: center;
     display: flex;
     align-items: baseline;
     position: relative;
     top: 70px;
     margin: 15px;
+    padding: 5px;
     right: 15px;
     color: #ffffff;
 }
@@ -535,5 +599,77 @@ footer {
     margin: 15px;
     right: 15px;
     color: #ffffff;
-    
+
+}
+
+#text4 {
+    top: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 95px;
+}
+
+#text5 {
+    top: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 20px;
+}
+
+#text6 {
+    top: 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 40px;
+
+}
+
+.palavra-clique {
+    cursor: pointer;
+
+}
+
+.oculto {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+.lista {
+    height: 30px;
+    width: 150px;
+    background-color: #ccbbbb;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+.palavra-clique::before {
+    content: "\25BC";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
