@@ -19,3 +19,7 @@ function verificarEmail() {
         mensagemErro.style.display = "block";
     }
 }
+
+function voltar() {
+    window.location.assign("../HTML/PAGINA-INICIAL.HTML")
+}
