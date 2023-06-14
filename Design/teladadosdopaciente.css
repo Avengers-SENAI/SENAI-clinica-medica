@@ -19,6 +19,7 @@ body {
         'footer footer footer footer footer';
 }
 
+
 #header {
     grid-area: header;
     justify-content: flex-end;
