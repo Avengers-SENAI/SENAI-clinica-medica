@@ -13,46 +13,51 @@
     </header>
     <img src="image 5.png" alt="">
     <form>
-        <h3 id="texto">Cancelar Consulta</h3>
+        <h3 id="cancelarconsulta">CANCELAR CONSULTA</h3>
         <fieldset>
             <div id="nome">
            Nome                                     
-           <input type="text" name="nome" class="texto"><br>
+           <input type="text" name="nome" class="texto" id="btn-nome"><br>
             </div>
 
             <div id="reagendamento">
            Reagendamento
-           <input type="date" name="reagendamento" class="texto"><br>
+           <input type="date" name="reagendamento" class="texto" id="btn-reagendamento"><br>
             </div>
 
             <div id="motivo">
            Motivo
-           <input type="text" name="motivo" class="texto"><br>
+           <input type="text" name="motivo" class="texto" id="btn-motivo"><br>
             </div>
 
             <div id="medico">
            Médico
-           <input type="text" name="medico" class="texto"><br>
+           <input type="text" name="medico" class="texto" id="btn-medico"><br>
             </div>
 
             <div id="cpfdocliente">
             CPF do cliente
-           <input type="number" name="CPF do cliente" class="texto"><br>
+           <input type="number" name="CPF do cliente" class="texto" id="btn-cpfdocliente"><br>
             </div>
             
             <div id="convenio">
             Convênio
-           <input type="text" name="convenio" class="texto"><br>
+           <input type="text" name="convenio" class="texto" id="btn-convenio"><br>
             </div>
 
-           <input type="submit" name="btn-cancelar" value="Cancelar" id="btn-cancelar">
-           <button type="submit" name="btn-voltar" value="voltar" id="btn-voltar"><a href="TELA-ADM.HTML">Voltar</a></button>
+           <button type="button" name="btn-cancelar" value="CANCELAR" id="btn-cancelar" onclick="cancelarConsulta()">CANCELAR</a></button>
+           <button type="button" name="btn-voltar" value="VOLTAR" id="btn-voltar" onclick="verificarEmail()">VOLTAR</a></button>
            
+
+             <button id="meuBotao">Clique Aqui</button>
+                <input type="text" id="caixaTexto" />
+
 
 
 
         </fieldset>
     </form>
+    <script src="../JS/cancelarconsulta.js"></script>
 </body>
 <footer>
     <small>Copyright 2023 SENAI clinica médica - Todos os direitos reservados</small>
