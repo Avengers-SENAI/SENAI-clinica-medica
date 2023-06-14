@@ -1,4 +1,4 @@
-function verificarEmail(){
+function verificarEmail1(){
     window.location.assign("../HTML/TELA-ADM.HTML")
 
 }

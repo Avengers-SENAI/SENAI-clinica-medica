@@ -48,9 +48,13 @@
         <input type="text" id="bairro" name="bairro" required>
 
         <label for="complemento">Complemento:</label>
-        <input type="text" id="complemto" name="complemento">
+        <input type="text" id="complemto" name="complemento"> 
 
-        <button type="submit">Cadastrar</button>
+        <button type="submit" onclick="cadastro()">Cadastrar</button>
+        <div id="containerTexto"></div>
+        <input type="radio" name="opcao" value="medico"> Médico
+        <input type="radio" name="opcao" value="adm"> Administrador
+        <input type="radio" name="opcao" value="paciente"> Paciente
         <button type="button" onclick="Ir()">Voltar</button>
         <script src="../JS/cadastro.js"></script>
     </form>

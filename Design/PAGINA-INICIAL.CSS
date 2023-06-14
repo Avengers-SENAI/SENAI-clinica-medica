@@ -7,6 +7,8 @@
 body {
     background-color: #f9f9f9;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1450px;
+    
 }
 
 #content {
@@ -40,6 +42,9 @@ body {
     height: 200px;
     width: 200px;
 }
+a{
+    cursor: pointer;
+}
 
 .Especialidades {
     position: absolute;
@@ -48,13 +53,16 @@ body {
     height: 200px;
     width: 200px;
 }
-  
+
 .Exames {
     position: absolute;
     top: 20px;
     left: 450px;
     height: 200px;
     width: 200px;
+}
+.Exames{
+    cursor: pointer;
 }
 
 
@@ -64,9 +72,11 @@ body {
     left: 650px;
     height: 200px;
     width: 200px;
-   
-}
 
+}
+.Convenio{
+    cursor: pointer;
+}
 
 .login {
     position: absolute;
@@ -76,6 +86,10 @@ body {
     width: 120px;
     text-decoration: none;
     color: #000000;
+}
+
+.login{
+    cursor: pointer;
 }
 
 .imagem {
@@ -88,17 +102,18 @@ body {
     margin-bottom: 10px;
 
 }
-.imagem1{
-    background-image: url(../img/Group\ 97.png);
+
+.imagem1 {
+    background-image: url(../img/Group\ 95.png);
     height: 40px;
     width: 40%;
     position: absolute;
-    bottom: -710px;
-    left: 700px;
+    bottom: -790px;
+    left: 570px;
     background-repeat: no-repeat;
-    background-position:right;
-    background-size: 25% 70%;
-    margin-bottom: 10px;
+    background-position: right;
+    background-size: 20% 70%;
+    margin-bottom: 33px;
 }
 
 #content {
@@ -110,19 +125,21 @@ body {
 #bloco1 {
     height: 303px;
     width: 600px;
-    background-color: #24c1b6;
+    background-color: #393b3b;
     padding: 15px;
     margin: -20px;
     margin-top: -10px;
-    border: solid #000000 2px;
+    border: solid #ffffff 2px;
     justify-content: center;
     position: absolute;
     left: 25px;
     top: 140px;
+    border-radius: 20px;
+    z-index: 1;
 }
 
 #tituloblc1 {
-
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-align: center;
@@ -137,6 +154,7 @@ body {
     justify-content: center;
     position: relative;
     top: -45px;
+    z-index: 1;
 }
 
 .carrossel {
@@ -150,6 +168,8 @@ body {
     position: absolute;
     scrollbar-width: none;
     border: #000000 solid 2px;
+    border-radius: 20px;
+    
 }
 
 
@@ -185,7 +205,7 @@ body {
 
 }
 
-.card {
+.card{
 
     width: 600px;
     height: 299px;
@@ -196,6 +216,7 @@ body {
     animation-name: animacao;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 20px;
 
 }
 
@@ -210,6 +231,7 @@ body {
     scrollbar-width: none;
     top: 235px;
     position: absolute;
+    border-radius: 20px;
 
 }
 
@@ -223,6 +245,7 @@ body {
     animation-name: animacao;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 20px;
 }
 
 .carrossel2 {
@@ -236,6 +259,7 @@ body {
     position: absolute;
     scrollbar-width: none;
     border: #000000 solid 2px;
+    border-radius: 20px;
 
 }
 
@@ -250,6 +274,8 @@ body {
     scrollbar-width: none;
     top: 235px;
     position: absolute;
+    border-radius: 20px;
+    border-radius: 20px;
 }
 
 figcaption {
@@ -265,25 +291,11 @@ figcaption {
     background-color: #7a737379;
     position: relative;
     top: 0;
-
-
-
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 
-.{
-    color: #ffff;
-    width: 600px;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: animacao;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    background-color: #7a737379;
-    position: relative;
-    top: 100;
-}
 
 .texto1 {
     height: 100px;
@@ -291,14 +303,15 @@ figcaption {
     margin: 5px;
     padding: 15px;
     position: relative;
-    top: -10px;
+    top: -70px;
+    color: white;
 
 }
 
 #bloco2 {
     height: 303px;
     width: 600px;
-    background-color: #24c1b6;
+    background-color: #549867;
     padding: 15px;
     margin: -20px;
     margin-top: -10px;
@@ -307,6 +320,7 @@ figcaption {
     position: absolute;
     left: 625px;
     top: 500px;
+    border-radius: 20px;
 }
 
 .tituloblc2 {
@@ -329,6 +343,14 @@ figcaption {
     width: 500px;
     margin: -5px;
     padding: 15px;
+  
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    padding: 15px;
+    position: relative;
+    top: -10px;
+    color: white;
 
 }
 
@@ -378,7 +400,7 @@ figcaption {
     width: auto;
     margin: -5px;
     padding: 15px;
-    top: 160px;
+    top: 145px;
     position: absolute;
 }
 
@@ -463,7 +485,7 @@ figcaption {
     width: 394.4px;
     margin: -45px;
     position: absolute;
-    top: 200px;
+    top: 180px;
     left: 40px;
     padding: 15px;
 }
@@ -478,27 +500,106 @@ figcaption {
 footer {
 
     position: absolute;
-    bottom: -800px;
+    bottom: -900px;
     background-color: #06443d;
-    height: 170px;
+    height: 50px;
     width: 1260px;
     justify-content: center;
     text-align: center;
-    border-top: 5px #000000 solid;
     align-items: center;
 
 
 }
 
 .rodape {
-    justify-content: center;
+   justify-content: center;
     text-align: center;
     display: flex;
     align-items: center;
     position: relative;
-    top: 130px;
+    top: 10px;
     color: #ffffff;
 
+
+}
+
+#trampo {
+    
+    color: white;
+    width: 302px;
+    height: 170px;
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+    left: 89.75px;
+    background-color: #000000;
+    padding: 15px;
+    margin: -20px;
+    margin-top: -10px;
+    border-width: 8px;
+    border-style: double;
+    border-color: #ffffff;
+    justify-content: center;
+    position: absolute;
+   
+   
+}
+
+#trampo1 {
+    color: white;
+    width: 302px;
+    height: 170px;
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+    left: 481.5px;
+    background-color: #000000;
+    padding: 15px;
+    margin: -20px;
+    margin-top: -10px;
+    border-width: 8px;
+    border-style: double;
+    border-color: #ffffff;
+    justify-content: center;
+    position: absolute;
+}
+
+#imagem4 {
+
+    background-image: url(../img/senai1.png);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 99%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 45px;
+}
+
+#trampo2 {
+    color: white;
+    width: 302px;
+    height: 170px;
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: -250px;
+    left: 873.25px;
+    background-color: #000000;
+    padding: 15px;
+    margin: -20px;
+    margin-top: -10px;
+    border-width: 8px;
+    border-style: double;
+    border-color: #ffffff;
+    justify-content: center;
+    position: absolute;
 }
 
 .text1 {
@@ -507,22 +608,26 @@ footer {
     display: flex;
     align-items: baseline;
     position: absolute;
-    top: 80px;
+    top: 20px;
     margin: 15px;
-    left: 10px;
     color: #ffffff;
+    text-align: left;
+    left: -10px;
 }
 
 .text2 {
-    justify-content: right;
+    justify-content: left;
     text-align: center;
     display: flex;
     align-items: baseline;
     position: relative;
     top: 70px;
-    margin: 15px;
+    left: -10px;
     right: 15px;
     color: #ffffff;
+    text-align: left;
+    width: 450px;
+    height: 200px;
 }
 
 .text3 {
@@ -535,5 +640,103 @@ footer {
     margin: 15px;
     right: 15px;
     color: #ffffff;
+
+}
+
+#text4 {
+    top: -1px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 12px;
+    height: 100px;
+    width: 100px;
     
+}
+
+#text5 {
+    top: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 20px;
+    text-align: left;
+}
+
+#text6 {
+    top: 0px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 40px;
+    text-align: left;
+
+}
+
+.palavra-clique {
+    cursor: pointer;
+
+}
+
+.oculto {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+.lista {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(252, 228, 228);
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    z-index: 2;
+    position: relative;
+
+}
+.lista:hover{
+    background-color: #67b5ac;
+    cursor: pointer;
+}
+
+
+.palavra-clique::before {
+    content: "\25BC";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fale{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .70em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: -50px;
+    padding: 0%;
+    width: 300px;
+    height: 100px;
+   text-align: left;
+
 }

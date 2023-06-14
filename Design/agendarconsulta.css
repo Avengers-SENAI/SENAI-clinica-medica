@@ -5,13 +5,41 @@
     height: 97px;
     border-radius: 10px;
 }
+
 header{
     background-color: #DEF7F4;
     width: 100%;
     height: 97px;
 }
-#container{
+#fieldset1{
+    position: absolute;
+    top: 180px;
+    height: 260px;
+    width: 1116px;
+    left: 80px;
+    background-color: #DEF7F4;
+    background-image: linear-gradient(to bottom, #b6f8ff, #73a3a2);
+
+}
+
+
+.textomod:focus{
+    width: 400px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.textomod{
+    width: 400px;
+    height: 30px;
     background-color: #9ED8DC;
+    border-radius: 7px;
+}
+
+  
+#container{
+    background-color: #434343;
     color: rgb(255, 255, 255);
 
     
@@ -22,14 +50,16 @@ header{
     width: 200px;
     height: 25px;
     text-align: center;
+    
     border-radius: 4px;
+    text-decoration: underline;
     
 }
 
 #name{
     position: absolute;
-    top: 220px;
-    left: 100px;
+    top: 215px;
+    left: 106px;
 
     height: 50px;
     border: 50px;
@@ -38,46 +68,47 @@ header{
 #cpf{
     position: absolute;
     top: 260px;
-    left: 115px;
+    left: 117px;
 }
 #horario{
     position: absolute;
     top: 305px;
-    left: 93px;
+    left: 95px;
     }
 #convenio{
     position: absolute;
     top: 345px;
     left: 82px;
 }
-#diadoagendamento{
+#data{
     position: absolute;
     top: 385px;
-    left: 12px;
+    left: 114px;
+
     
 }
 #cepdopaciente{
     position: absolute;
-    top: 220px;
-    left: 630px;
+    top: 215px;
+    left: 633px;
     height: 50px;
 }
 #datadenascimento{
     position: absolute;
     top: 260px;
-    left: 610px;
+    left: 613px;
     height: 50px;
 }
 #tipodaconsulta{
     position: absolute;
     top: 302px;
-    left: 630px;
+    left: 632px;
     height: 50px;
 }
 #medico{
     position: absolute;
     top: 345px;
-    left: 689px;
+    left: 690px;
     height: 50px;
 }
 #cpfdomedico{
@@ -113,9 +144,8 @@ footer{
     border-radius: 7px;
 }
 
-
 #btn-voltar{
-    background-color: #737272;
+    background-color: #434343;
     color: white;
     position: absolute;
     top: 470px;

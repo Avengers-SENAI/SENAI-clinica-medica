@@ -1,48 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="../Design/pagina-do-paciente.css">
+    <link rel="stylesheet" href="../Design/pagina-do-paciente.css">
     <title>Bem vindo</title>
-    
+
 </head>
+
 <body>
     <div class="container">
-    <div id="header">
-        <img src="../img/image 5.png">
-        <div class="logout"><a href=PAGINA-INICIAL.HTML>LOGOUT</a></div>
-    </div>
-    <div id="content">
-        <br><div ><button><a href="meus-dados.html"> Meus Dados</button></div><br>
-        <br>
+        <div id="header">
+            <img id="imagem1" src="../img/image 5.png">
+            <div class="logout" onclick="logout()">LOGOUT</div>
+        </div>
+        <div id="content">
+        
             <div id="quadro-aviso">
-                <p><h3>Próximas Consultas e Exames:</h1><br>
-                Tue Feb 14 2023 08:53:53 GMT-0300<br>
-                Tue Feb 14 2023 08:53:53 GMT-0300<br>
-                Tue Feb 14 2023 08:53:53 GMT-0300<br>
-                Tue Feb 14 2023 08:53:53 GMT-0300<br>
-            </p></div>
-            <div class="img">
-                
-                
+                <p>
+                <h3>Próximas Consultas e Exames:</h1><br>
+                    Tue Feb 14 2023 08:53:53 GMT-0300<br>
+                    Tue Feb 14 2023 08:53:53 GMT-0300<br>
+                    Tue Feb 14 2023 08:53:53 GMT-0300<br>
+                    Tue Feb 14 2023 08:53:53 GMT-0300<br>
+                    </p>
             </div>
 
-              
-              
+            <div id="quadro-aviso1">
+                <h3>Resultado do Ultimo Exame: </h1><br>
+
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>Exame</th>
+                            <th>Resultado</th>
+                            <th>Unidade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Hemoglobina</td>
+                            <td>13.5</td>
+                            <td>g/dL</td>
+                          </tr>
+                          <tr>
+                            <td>Glicose</td>
+                            <td>110</td>
+                            <td>mg/dL</td>
+                          </tr>
+                          <tr>
+                            <td>Colesterol total</td>
+                            <td>200</td>
+                            <td>mg/dL</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <button id="historico" onclick="mostrarHistorico()">Ver histórico de exames</button>
+                   
+            </div>
+            
+
+
+            
+
+
+
         </div>
-    <div id="footer">
-        <p class="Rodape"> SENAI Clinica Médica - Todos os direitos reservados</p>
-    </div>
+
+        <div id="content">
+            <div id="meu">MEUS DADOS</div><br>
+            <br>
+            <form>
+                Nome:
+                <input type="text" name="Nome"></input>
+                CPF:
+                <input type="number"></input>
+                <br><br>Telefone:
+                <input type="number"></input>
+                Estado Civil:
+                <select>
+                    <option value=""></option>
+                    <option value="Casado">Casado</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Divorciado">Divorciado</option>
+                </select>
+                Data de Nascimento:
+                <input type="date" name="Cidade"></input><br><br>
+                Email:
+                <input type="email" size="50"></input><br><br>
+                Cidade:
+                <input type="text" name="date"></input>
+                <br><br>Endereço:
+                <input type="address" name="address" size="50"></input>
+                <br><br>Bairro:
+                <input type="text" name="name"></input><br><br>
+                Complemento:
+                <input type="text" name="name" size="50"></input>
+                <br><br>Convênio:
+                <input type="text" name="name"></input>
+
+        </div>
+
+        <div id="footer">
+            <p class="Rodape"> SENAI Clinica Médica - Todos os direitos reservados</p>
+        </div>
 
 
-   
-    
 
-    
 
-    
+
+
+
+        <script src="../JS/tela-do-paciente-com-css.js"></script>
 </body>
-</html>
 
+</html>

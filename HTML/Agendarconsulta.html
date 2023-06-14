@@ -18,68 +18,72 @@
     
     <form>
         <div id="container">
-            <h4>AGENDAR</h4>
+            <h4 id="AGENDAR">AGENDAR</h4>
         </div>
 
 
-
+        <fieldset id="fieldset1"></fieldset>
         
         <div id="name">
         nome:
-        <input type="text" name="Nome" class="texto"><br>
+        <input type="text" name="Nome" class="textomod"><br>
         </div>
 
         <div id="cpf">
         CPF
-        <input type="number" name="CPF" class="texto"> <br>
+        <input type="number" name="CPF" class="textomod"> <br>
         </div>
 
         <div  id="horario">
         Horário
-        <input type="time" name="Horário" class="texto" > <br>
+        <input type="time" name="Horário" class="textomod" > <br>
         </div>
 
         <div id="convenio">
         Convênio
-        <input type="text" name="Horário" class="texto" > <br>
+        <input type="text" name="Horário" class="textomod" > <br>
         </div>
 
-        <div id="diadoagendamento">
-        Dia do agendamento
-        <input type="date" name=" Dia do agendamento" class="texto"> <br>
+        <div id="data">
+        Data
+        <input type="date" name=" Dia do agendamento" class="textomod"> <br>
         </div>
 
         <div id="cepdopaciente">
         CEP do paciente
-        <input type="text" name="CEP do paciente" class="texto" > <br>
+        <input type="text" name="CEP do paciente" class="textomod" > <br>
         </div>
 
         <div id="datadenascimento">
         Data de nascimento
-        <input type="date" name="Data de nascimento" class="texto"> <br>
+        <input type="date" name="Data de nascimento" class="textomod"> <br>
         </div>
 
         <div id="tipodaconsulta">
         Tipo da consulta
-        <input type="text" name="Tipo da consulta" class="texto"> <br>
+        <input type="text" name="Tipo da consulta" class="textomod"> <br>
         </div>
 
         <div id="medico">
         Médico
-        <input type="text" name="médico" class="texto"> <br>
+        <input type="text" name="médico" class="textomod"> <br>
         </div>
 
         <div id="cpfdomedico">
         CPF do Médico
-        <input type="text" name="CPF do médico" class="texto"> <br>
+        <input type="text" name="CPF do médico" class="textomod" placeholder=""> <br>
         </div>
 
 
-
-        <input type="submit" name="btn-voltar" value="voltar" id="btn-voltar"> 
-        <input type="submit" name="btn-agendar" value="Agendar" id="btn-agendar"><br><br>
+        
 
 
+
+
+        <button type="button" name="btn-voltar" value="voltar" id="btn-voltar" onclick="verificarEmail1()">VOLTAR</a></button> 
+        <button type="button" name="btn-agendar" value="Agendar" id="btn-agendar" onclick="verificarEmail1()">AGENDAR</a></button><br>
+
+        <script src="../JS/Agendarconsulta.js"></script>
     </form>
     </div>
     <footer>
