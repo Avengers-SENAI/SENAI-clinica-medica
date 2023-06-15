@@ -12,10 +12,27 @@ header{
   border-radius: 10px;
 }
 
+.textomod:focus{
+    width: 400px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.textomod{
+    width: 400px;
+    height: 30px;
+    background-color: #9ED8DC;
+    border-radius: 7px;
+}
+
+
+
+
+
 
 fieldset{
-    background-color: #63C7C1;
-    margin: 50px;
+    background-image: linear-gradient(to bottom, #b6f8ff, #73a3a2);    margin: 50px;
     padding: 150px;
     margin-top: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -26,6 +43,8 @@ fieldset{
     position: absolute;
     top: 200px;
     left: 100px;
+    font-family: Arial;
+
 }
 
 
@@ -33,33 +52,43 @@ fieldset{
     position: absolute;
     top: 280px;
     left: 60px;
+    font-family: Arial;
+
 }
 #motivo{
     position: absolute;
     top: 360px;
     left: 90px;
+    font-family: Arial;
+
 }
 
 #medico{
     position: absolute;
     top: 200px;
     left: 687px ;
+    font-family: Arial;
+
 }
 #cpfdocliente{
     position: absolute;
     top: 280px;
     left: 609px ;
+    font-family: Arial;
+
 }
 #convenio{
     position: absolute;
     top:  360px;
     left: 670px ;
+    font-family: Arial;
 }
 #cancelarconsulta{
     position: absolute;
     top: 150px;
     left: 540px;
     text-decoration: underline;
+    
 }
 
 
@@ -76,7 +105,7 @@ footer{
 }
 
 .texto{
-    font-family: rob;
+    
     width: 400px;
     height: 30px;
     background-color: #9ED8DC;
@@ -100,7 +129,7 @@ footer{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #btn-cancelar{
-    background-color:#434343;
+    background-color:#5b8180;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 400px;
@@ -133,55 +162,7 @@ h3{
 }
 
 
-#btn-nome:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
 
-}
-#btn-reagendamento:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
-
-}
-#btn-motivo:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
-
-}
-#btn-medico:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
-
-}
-#btn-cpfdocliente:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
-
-}
-#btn-convenio:hover{
-    background-color:#d8d8d8;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 5s;
-    border: 0px;
-
-}
 
 
 
